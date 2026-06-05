@@ -2,12 +2,12 @@ from pathlib import Path
 
 import pandas as pd
 
-from growth_analytics.metrics import calculate_channel_metrics
-from growth_analytics.recommendations import recommend_action
+from metrics import calculate_channel_metrics
+from recommendations import recommend_action
 
 
 def main() -> None:
-    data_path = Path("data/sample_channel_data.csv")
+    data_path = Path("sample_channel_data.csv")
     df = pd.read_csv(data_path)
 
     results = calculate_channel_metrics(df)
