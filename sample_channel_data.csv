@@ -1,0 +1,6 @@
+channel,spend,new_customers,avg_monthly_revenue_per_customer,gross_margin,monthly_churn_rate
+Paid Search,85000,2000,18.50,0.72,0.072
+Paid Social,120000,2500,17.00,0.72,0.085
+Apple Search Ads,65000,1750,19.25,0.72,0.068
+TikTok,45000,950,16.50,0.72,0.095
+Programmatic,70000,1100,18.00,0.72,0.088
