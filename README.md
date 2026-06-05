@@ -69,4 +69,4 @@ python main.py
 
 ## Notes
 
-This project uses fictional sample data and does not include any proprietary company data.
+This project uses fictional sample data only and does not include any proprietary company data.
