@@ -33,15 +33,12 @@ Recommendation: Scale carefully
 
 ```text
 growth-analytics-toolkit/
-├── growth_analytics/
-│   ├── __init__.py
-│   ├── metrics.py
-│   └── recommendations.py
-├── data/
-│   └── sample_channel_data.csv
 ├── main.py
+├── metrics.py
+├── recommendations.py
+├── sample_channel_data.csv
 ├── requirements.txt
-├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -62,6 +59,13 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python main.py
 ```
+
+## Files
+
+- `main.py`: Loads sample channel data and prints a channel performance summary
+- `metrics.py`: Calculates CAC, LTV, LTV:CAC, and payback period
+- `recommendations.py`: Adds simple scale, hold, review, or pause recommendations
+- `sample_channel_data.csv`: Fictional sample data for paid acquisition channels
 
 ## Notes
 
